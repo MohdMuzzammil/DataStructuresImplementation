@@ -167,10 +167,10 @@ int main()
             l.print();
             break;
         case 7:
-            cout<<l.size()?"Yes":"No";
+            cout<<l.size();
             break;
         case 8:
-            cout<<l.isEmpty();
+            cout<<l.isEmpty()?"Yes":"No";
             break;
         default: break;
         }
